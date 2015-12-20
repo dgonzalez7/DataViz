@@ -8,7 +8,8 @@ x = np.random.normal(mu, sigma, 10000)
 ax = plt.gca()
 
 # the histogram of the data
-ax.hist(x, bins=35, color='r')
+ax.hist(x, bins=35, color='b')
+#ax.hist(x, bins=35, color='b', histtype='step')
 
 ax.set_xlabel('Values')
 ax.set_ylabel('Frequency')

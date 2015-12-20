@@ -12,8 +12,12 @@ values = [15, 16, 16, 28]
 explode =[0.1, 0.1, 0.1, 0.1]
 
 # make a pie 
+#plt.pie(values, explode=explode, labels=labels,
+#    autopct='%1.1f%%', startangle=67)
 plt.pie(values, explode=explode, labels=labels,
-    autopct='%1.1f%%', startangle=67)
+    autopct='%1.1f%%', startangle=90)
+#plt.pie(values, labels=labels,
+#    autopct='%1.1f%%', startangle=90)
 
 plt.title('Rainy days by season')
 
